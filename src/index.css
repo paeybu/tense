@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.roll-out {
+  animation: flash 1s;
+}
